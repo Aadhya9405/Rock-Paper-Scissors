@@ -54,4 +54,4 @@ To run this project locally:
 ## 🌐 Live Demo Website
 
 
-👉 [Click here to play the game!]()
+👉 [Click here to play the game!](https://aadhya9405.github.io/Rock-Paper-Scissors/)
