@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Paper Scissors Battle</title>
+  <link rel="stylesheet" href="style.css"/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1>Rock Paper Scissors Showdown</h1>
+
+   <!-- Result Center -->
+   <div class="result-box">
+    <div id="message">Make your move!</div>
+    <div id="score">You: 0 | Computer: 0</div>
+    <button id="reset">Reset Game</button>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div class="battlefield">
+    <!-- User Section -->
+    <div class="player user">
+      <h2>You</h2>
+      <img id="user-image" src="images/question.png" alt="User Choice">
+    </div>
+
+    <!-- Computer Section -->
+    <div class="player computer">
+      <h2>Computer</h2>
+      <img id="computer-image" src="images/question.png" alt="Computer Choice">
+    </div>
+  </div>
+
+  <!-- Choice Buttons -->
+  <div class="choices">
+    <img src="images/rock.png" alt="Rock" id="rock" class="choice">
+    <img src="images/paper.png" alt="Paper" id="paper" class="choice">
+    <img src="images/scissors.png" alt="Scissors" id="scissors" class="choice">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
