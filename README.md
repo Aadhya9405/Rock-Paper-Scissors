@@ -3,7 +3,7 @@
 A simple and interactive **Rock–Paper–Scissors** game built using **HTML**, **CSS**, and **JavaScript**.  
 Challenge the computer, track your score, and enjoy smooth animations and cartoon-style graphics.
 
-![Game Preview](preview.png)
+![Game Preview](images/preview.png)
 
 ---
 
